@@ -1,7 +1,7 @@
 #### UI
 * Scene - level (e.g. start menu, forest level, cave level, lock-pick mini game)
 * Asset - any item used in game (images, audio, fonts, models)
-* GameObject - invisible container, filled with components (camera, sprite, event, script)
+* GameObject - invisible container, filled with components (camera, sprite, event, script, tracker)
 
 #### Build & deploy
 * Build:

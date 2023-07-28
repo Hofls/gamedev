@@ -5,6 +5,7 @@ using UnityEngine;
 public class FishScript : MonoBehaviour
 {
     public Rigidbody2D body;
+    public float jumpHeight = 5;
 
     // Start is called before the first frame update
     void Start()
@@ -17,7 +18,7 @@ public class FishScript : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            body.velocity = Vector2.up * 5;
+            body.velocity = Vector2.up * jumpHeight;
         }
         
     }
